@@ -2,7 +2,7 @@
 package main
 
 import (
-	"https://github.com/brsetty/github-action/tree/main/microservice"
+	"github-action/microservice"
 	"log"
 )
 
