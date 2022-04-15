@@ -5,8 +5,8 @@ COPY go.mod .
 RUN go mod download
 COPY main.go .
 ADD microservice ./microservice
-RUN CGO_ENABLED=0 go build -o /bin/main
+RUN CGO_ENABLED=0 go build -o /main
 
 FROM scratch
-COPY --from=build /bin/main /bin/main
-ENTRYPOINT ["/bin/main"]
+COPY --from=build /main /main
+ENTRYPOINT ["/main"]
