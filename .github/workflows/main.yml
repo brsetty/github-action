@@ -17,4 +17,4 @@ jobs:
     - name: Test
       run: go test ./microservice
     - name: main
-      run: go run main.go
+      run: go run ./main
