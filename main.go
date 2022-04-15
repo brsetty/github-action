@@ -2,7 +2,7 @@
 package main
 
 import (
-	"labs/lab12/microservice"
+	"github-action/microservice"
 	"log"
 )
 
