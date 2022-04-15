@@ -2,7 +2,7 @@
 package main
 
 import (
-	"labs/lab12/microservice"
+	"https://github.com/brsetty/github-action/tree/main/microservice"
 	"log"
 )
 
