@@ -8,5 +8,5 @@ ADD microservice ./microservice
 RUN CGO_ENABLED=0 go build -o /main
 
 FROM scratch
-COPY --from=build /main /main
+COPY --from=build /src/main /bin/main
 ENTRYPOINT ["/main"]
